@@ -38,6 +38,9 @@
         "fsevents": {
             "built": false
         },
+        "idb-connector": {
+            "built": false
+        },
         "webpack-cli": {
             "built": false
         }
