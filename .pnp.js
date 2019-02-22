@@ -6960,8 +6960,28 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                   "workspace:packages/website"
                 ],
                 [
+                  "core-js",
+                  "npm:2.6.5"
+                ],
+                [
                   "gatsby",
                   "virtual:2fd236aa1809581f81393636a6c04c17b9b80367983e90dcfe8d797415504c6ff698a5e4ff931692aa95ce9dcc7b25bad2efaebece1cb8000eb4d64882ef3285#npm:2.1.15"
+                ],
+                [
+                  "lodash",
+                  "npm:4.17.11"
+                ],
+                [
+                  "pnp-webpack-plugin",
+                  "npm:1.3.1"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:2fd236aa1809581f81393636a6c04c17b9b80367983e90dcfe8d797415504c6ff698a5e4ff931692aa95ce9dcc7b25bad2efaebece1cb8000eb4d64882ef3285#npm:16.8.3"
                 ]
               ]
             }
@@ -7295,6 +7315,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                   "npm:15.6.2"
                 ],
                 [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:ee378392c91baa8a0cdb3e7b0643e8472b3f6099c82f245c6730be2ba7add37f627c0847968edfed41145580afb7240aa765de0b34999effcbb65e43639605dc#npm:16.8.3"
+                ],
+                [
                   "react-lifecycles-compat",
                   "npm:3.0.4"
                 ],
@@ -7325,6 +7353,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:8e4e5aebf99bee24928bfe6ddfe9752f131bffc9cbe1267d4a509a14edebfc2c1ea71fb1090dfa825476947036eced30fcc5fb4a1e3b84c0920d5dcae13f70de#npm:16.8.3"
                 ],
                 [
                   "react-lifecycles-compat",
@@ -11472,6 +11508,10 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                   "virtual:6df6487f49e6dd30dc2b1658e792dd84358f7d80e63024a1edfd5664534b4f386163641ff338dce0009b64e65de3a7b37a59eefed64134e54613acdfb4358694#npm:2.6.0"
                 ],
                 [
+                  "gatsby",
+                  "virtual:2fd236aa1809581f81393636a6c04c17b9b80367983e90dcfe8d797415504c6ff698a5e4ff931692aa95ce9dcc7b25bad2efaebece1cb8000eb4d64882ef3285#npm:2.1.15"
+                ],
+                [
                   "graphql",
                   "npm:14.1.1"
                 ]
@@ -15294,6 +15334,18 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 ]
               ]
             }
+          ],
+          [
+            "npm:2.6.5",
+            {
+              "packageLocation": "./.yarn/cache/core-js-npm-2.6.5-814567893dab56b9eb40efe0e8f2421d0d782e12c2d66d6909860b85a5fdeb55.zip/node_modules/core-js/",
+              "packageDependencies": [
+                [
+                  "core-js",
+                  "npm:2.6.5"
+                ]
+              ]
+            }
           ]
         ]
       ],
@@ -15546,6 +15598,10 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
                 ]
               ]
             }
@@ -15570,6 +15626,10 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
                 ]
               ]
             }
@@ -22484,6 +22544,10 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                   "npm:2.1.6"
                 ],
                 [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
                   "raw-loader",
                   "npm:0.5.1"
                 ],
@@ -22968,12 +23032,24 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                   "npm:2.1.6"
                 ],
                 [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
                   "raw-loader",
                   "npm:0.5.1"
                 ],
                 [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
                   "react-dev-utils",
                   "npm:4.2.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:6df6487f49e6dd30dc2b1658e792dd84358f7d80e63024a1edfd5664534b4f386163641ff338dce0009b64e65de3a7b37a59eefed64134e54613acdfb4358694#npm:16.8.3"
                 ],
                 [
                   "react-error-overlay",
@@ -23236,6 +23312,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:ce527ec683870c2e65be3407f57b14ff598d069ae538c7110a163bfb41a88017e8301f15786712ff442797367af84a8791c3f642a993f25f04b4bf749f62e54d#npm:16.8.3"
                 ]
               ]
             }
@@ -23394,6 +23478,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "gatsby",
                   "virtual:2fd236aa1809581f81393636a6c04c17b9b80367983e90dcfe8d797415504c6ff698a5e4ff931692aa95ce9dcc7b25bad2efaebece1cb8000eb4d64882ef3285#npm:2.1.15"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:16a7c49660094ab5145b51a9690a2a97fa4935ad9920bea6d1424559297ed91a1aa40d80c97523e9ee302f0267a7c0986031e3381b4869e5764bdbef9d511c9f#npm:16.8.3"
                 ],
                 [
                   "scroll-behavior",
@@ -37820,6 +37912,263 @@ function $$SETUP_STATE(hydrateRuntimeState) {
         ]
       ],
       [
+        "react-dom",
+        [
+          [
+            "npm:16.8.3",
+            {
+              "packageLocation": "./.yarn/cache/react-dom-npm-16.8.3-b902ea91f675fe584b32bcf8d257b0f82fe988cdafe01ff6b090704954f53aa1.zip/node_modules/react-dom/",
+              "packageDependencies": [
+                [
+                  "react-dom",
+                  "npm:16.8.3"
+                ],
+                [
+                  "loose-envify",
+                  "npm:1.4.0"
+                ],
+                [
+                  "object-assign",
+                  "npm:4.1.1"
+                ],
+                [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
+                  "scheduler",
+                  "npm:0.13.3"
+                ]
+              ]
+            }
+          ],
+          [
+            "virtual:16a7c49660094ab5145b51a9690a2a97fa4935ad9920bea6d1424559297ed91a1aa40d80c97523e9ee302f0267a7c0986031e3381b4869e5764bdbef9d511c9f#npm:16.8.3",
+            {
+              "packageLocation": "./.yarn/virtual/react-dom-virtual-092cf2d06d197a7e82bf597fc9323ad1c30e480257eabd40b81919d1b1126681/node_modules/react-dom/",
+              "packageDependencies": [
+                [
+                  "react-dom",
+                  "virtual:16a7c49660094ab5145b51a9690a2a97fa4935ad9920bea6d1424559297ed91a1aa40d80c97523e9ee302f0267a7c0986031e3381b4869e5764bdbef9d511c9f#npm:16.8.3"
+                ],
+                [
+                  "loose-envify",
+                  "npm:1.4.0"
+                ],
+                [
+                  "object-assign",
+                  "npm:4.1.1"
+                ],
+                [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "scheduler",
+                  "npm:0.13.3"
+                ]
+              ]
+            }
+          ],
+          [
+            "virtual:27fec32b7ffe9d896cf135df7c08bdea417fa5342623f0de81f5e7c1ee4bb0e07b4c546a9cca6dd6e4a8caff91af4b932e3edd73973a2fa6cec0db3f1fd5706e#npm:16.8.3",
+            {
+              "packageLocation": "./.yarn/virtual/react-dom-virtual-3d9b730b3c7a92f8c38f1a742bbafa3feef8a9bab4622a71aff2d8d77eff41af/node_modules/react-dom/",
+              "packageDependencies": [
+                [
+                  "react-dom",
+                  "virtual:27fec32b7ffe9d896cf135df7c08bdea417fa5342623f0de81f5e7c1ee4bb0e07b4c546a9cca6dd6e4a8caff91af4b932e3edd73973a2fa6cec0db3f1fd5706e#npm:16.8.3"
+                ],
+                [
+                  "loose-envify",
+                  "npm:1.4.0"
+                ],
+                [
+                  "object-assign",
+                  "npm:4.1.1"
+                ],
+                [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "scheduler",
+                  "npm:0.13.3"
+                ]
+              ]
+            }
+          ],
+          [
+            "virtual:2fd236aa1809581f81393636a6c04c17b9b80367983e90dcfe8d797415504c6ff698a5e4ff931692aa95ce9dcc7b25bad2efaebece1cb8000eb4d64882ef3285#npm:16.8.3",
+            {
+              "packageLocation": "./.yarn/virtual/react-dom-virtual-082a7d15198290b840e67c3af5c4f541953590b0ea24ce5dee35ac60a052049b/node_modules/react-dom/",
+              "packageDependencies": [
+                [
+                  "react-dom",
+                  "virtual:2fd236aa1809581f81393636a6c04c17b9b80367983e90dcfe8d797415504c6ff698a5e4ff931692aa95ce9dcc7b25bad2efaebece1cb8000eb4d64882ef3285#npm:16.8.3"
+                ],
+                [
+                  "loose-envify",
+                  "npm:1.4.0"
+                ],
+                [
+                  "object-assign",
+                  "npm:4.1.1"
+                ],
+                [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "scheduler",
+                  "npm:0.13.3"
+                ]
+              ]
+            }
+          ],
+          [
+            "virtual:6df6487f49e6dd30dc2b1658e792dd84358f7d80e63024a1edfd5664534b4f386163641ff338dce0009b64e65de3a7b37a59eefed64134e54613acdfb4358694#npm:16.8.3",
+            {
+              "packageLocation": "./.yarn/virtual/react-dom-virtual-2fda14c50a1b5ea5135b748700f3fe751c8e6c4903109aa160f808cad50e1892/node_modules/react-dom/",
+              "packageDependencies": [
+                [
+                  "react-dom",
+                  "virtual:6df6487f49e6dd30dc2b1658e792dd84358f7d80e63024a1edfd5664534b4f386163641ff338dce0009b64e65de3a7b37a59eefed64134e54613acdfb4358694#npm:16.8.3"
+                ],
+                [
+                  "loose-envify",
+                  "npm:1.4.0"
+                ],
+                [
+                  "object-assign",
+                  "npm:4.1.1"
+                ],
+                [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "scheduler",
+                  "npm:0.13.3"
+                ]
+              ]
+            }
+          ],
+          [
+            "virtual:8e4e5aebf99bee24928bfe6ddfe9752f131bffc9cbe1267d4a509a14edebfc2c1ea71fb1090dfa825476947036eced30fcc5fb4a1e3b84c0920d5dcae13f70de#npm:16.8.3",
+            {
+              "packageLocation": "./.yarn/virtual/react-dom-virtual-b54d88172f18d3be6b1e34737a413c3c6a3702464321076c4f73b346c376fc14/node_modules/react-dom/",
+              "packageDependencies": [
+                [
+                  "react-dom",
+                  "virtual:8e4e5aebf99bee24928bfe6ddfe9752f131bffc9cbe1267d4a509a14edebfc2c1ea71fb1090dfa825476947036eced30fcc5fb4a1e3b84c0920d5dcae13f70de#npm:16.8.3"
+                ],
+                [
+                  "loose-envify",
+                  "npm:1.4.0"
+                ],
+                [
+                  "object-assign",
+                  "npm:4.1.1"
+                ],
+                [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "scheduler",
+                  "npm:0.13.3"
+                ]
+              ]
+            }
+          ],
+          [
+            "virtual:ce527ec683870c2e65be3407f57b14ff598d069ae538c7110a163bfb41a88017e8301f15786712ff442797367af84a8791c3f642a993f25f04b4bf749f62e54d#npm:16.8.3",
+            {
+              "packageLocation": "./.yarn/virtual/react-dom-virtual-b3948f15ceccb2984d95f34e64bca842ded0aad950e304fc926868949c6d594d/node_modules/react-dom/",
+              "packageDependencies": [
+                [
+                  "react-dom",
+                  "virtual:ce527ec683870c2e65be3407f57b14ff598d069ae538c7110a163bfb41a88017e8301f15786712ff442797367af84a8791c3f642a993f25f04b4bf749f62e54d#npm:16.8.3"
+                ],
+                [
+                  "loose-envify",
+                  "npm:1.4.0"
+                ],
+                [
+                  "object-assign",
+                  "npm:4.1.1"
+                ],
+                [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "scheduler",
+                  "npm:0.13.3"
+                ]
+              ]
+            }
+          ],
+          [
+            "virtual:ee378392c91baa8a0cdb3e7b0643e8472b3f6099c82f245c6730be2ba7add37f627c0847968edfed41145580afb7240aa765de0b34999effcbb65e43639605dc#npm:16.8.3",
+            {
+              "packageLocation": "./.yarn/virtual/react-dom-virtual-b48f75468a1bf078484794d7c34b998e70566b4a54a1581132e90c7128826ef6/node_modules/react-dom/",
+              "packageDependencies": [
+                [
+                  "react-dom",
+                  "virtual:ee378392c91baa8a0cdb3e7b0643e8472b3f6099c82f245c6730be2ba7add37f627c0847968edfed41145580afb7240aa765de0b34999effcbb65e43639605dc#npm:16.8.3"
+                ],
+                [
+                  "loose-envify",
+                  "npm:1.4.0"
+                ],
+                [
+                  "object-assign",
+                  "npm:4.1.1"
+                ],
+                [
+                  "prop-types",
+                  "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "scheduler",
+                  "npm:0.13.3"
+                ]
+              ]
+            }
+          ]
+        ]
+      ],
+      [
         "react-error-overlay",
         [
           [
@@ -37919,6 +38268,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "prop-types",
                   "npm:15.6.2"
+                ],
+                [
+                  "react",
+                  "npm:16.8.3"
+                ],
+                [
+                  "react-dom",
+                  "virtual:27fec32b7ffe9d896cf135df7c08bdea417fa5342623f0de81f5e7c1ee4bb0e07b4c546a9cca6dd6e4a8caff91af4b932e3edd73973a2fa6cec0db3f1fd5706e#npm:16.8.3"
                 ],
                 [
                   "react-lifecycles-compat",

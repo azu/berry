@@ -1363,7 +1363,12 @@
   version: 0.0.0
   resolution: "@berry/website@workspace:packages/website"
   dependencies:
+    core-js: "npm:^2.6.5"
     gatsby: "npm:^2.1.15"
+    lodash: "npm:^4.17.11"
+    pnp-webpack-plugin: "npm:^1.3.1"
+    react: "npm:^16.8.3"
+    react-dom: "npm:^16.8.3"
   languageName: unknown
   linkType: soft
 
@@ -3058,6 +3063,7 @@ __metadata:
   version: 2.6.0
   resolution: "babel-plugin-remove-graphql-queries@npm:2.6.0"
   peerDependencies:
+    gatsby: ^2.0.0
     graphql: ^14.1.1
   checksum: cec31cab72dcd5c838e07a2467b36e917c4033496b8dbf9f0f4b236e79ce18d24b788a206d909c09b364e16e4577b8270b961d1419a642c376268e4a0f5504cb
   languageName: node
@@ -4477,6 +4483,13 @@ __metadata:
   version: 2.6.2
   resolution: "core-js@npm:2.6.2"
   checksum: 1cf4db0bbef5d198d6c59a9e5fdd88785efe6d86b363e4c93fb5cd426cd8440bf32b831f080bfe7aa3bca7c6d8bee99528ff1ec8708519817f178467b8062be8
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^2.6.5":
+  version: 2.6.5
+  resolution: "core-js@npm:2.6.5"
+  checksum: 8f2e2db09438c9ab1eada8a9815b5f08d6c2f1b9889d605708a4b403e0632d31e96802538791c372d3823e8f1db2b328c0a678b84541529818b2026c5d429ffb
   languageName: node
   linkType: hard
 
@@ -7104,6 +7117,7 @@ __metadata:
     physical-cpu-count: "npm:^2.0.0"
     postcss-flexbugs-fixes: "npm:^3.0.0"
     postcss-loader: "npm:^2.1.3"
+    prop-types: "npm:^15.6.2"
     raw-loader: "npm:^0.5.1"
     react-dev-utils: "npm:^4.2.1"
     react-error-overlay: "npm:^3.0.0"
@@ -12835,6 +12849,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-dom@npm:^16.8.3":
+  version: 16.8.3
+  resolution: "react-dom@npm:16.8.3"
+  dependencies:
+    loose-envify: "npm:^1.1.0"
+    object-assign: "npm:^4.1.1"
+    prop-types: "npm:^15.6.2"
+    scheduler: "npm:^0.13.3"
+  peerDependencies:
+    react: ^16.0.0
+  checksum: 9077ea632d6bc625280672d681031cb609a1d02ed685f120021a612f2536b578de0a462ee2e666b818e3ff0f98db000054dbc3c2bef894ccd70f48f1abf27bda
+  languageName: node
+  linkType: hard
+
 "react-error-overlay@npm:^3.0.0":
   version: 3.0.0
   resolution: "react-error-overlay@npm:3.0.0"
@@ -12908,7 +12936,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^16.5.2":
+"react@npm:^16.5.2, react@npm:^16.8.3":
   version: 16.8.3
   resolution: "react@npm:16.8.3"
   dependencies:
